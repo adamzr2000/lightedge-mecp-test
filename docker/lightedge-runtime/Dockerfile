@@ -22,7 +22,7 @@ RUN buildDeps='python3-pip wget curl unzip' \
     && pip3 install PyYAML==5.1.2 \
     && pip3 install jsonpath-ng==1.5.1 \
     && pip3 install helmpythonclient==1.1 \
-    && wget https://github.com/lightedge/lightedge-runtime/archive/master.zip \
+    && wget https://github.com/ingdestino/lightedge-runtime/archive/master.zip \
     && unzip master.zip \
     && rm master.zip \
     && ln -sf /lightedge-runtime-master/conf/ /etc/lightedge \
